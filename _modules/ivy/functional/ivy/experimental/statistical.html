@@ -830,8 +830,8 @@
     <span class="n">overwrite_input</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
     <span class="n">out</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;ivy.Array instance method variant of ivy.nanmedian. This method simply</span>
-<span class="sd">     wraps the function, and so the docstring for ivy.nanmedian also applies to</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;ivy.Array instance method variant of ivy.nanmedian. This method simply </span>
+<span class="sd">    wraps the function, and so the docstring for ivy.nanmedian also applies to</span>
 <span class="sd">    this method with minimal changes.</span>
 
 <span class="sd">    Parameters</span>
@@ -864,6 +864,7 @@
 <span class="sd">        A new array holding the result. If the input contains integers</span>
 
 <span class="sd">    Examples</span>
+<span class="sd">    --------</span>
 <span class="sd">    &gt;&gt;&gt; a = ivy.Array([[10.0, ivy.nan, 4], [3, 2, 1]])</span>
 <span class="sd">    &gt;&gt;&gt; a.nanmedian(a)</span>
 <span class="sd">        3.0</span>
