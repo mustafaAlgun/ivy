@@ -160,4 +160,9 @@ html {
 
 i.fa-chevron-down {
   display: none;
+  visibility: hidden;
+}
+
+html[data-theme="dark"] .highlight button.copybtn:hover {
+  background-color: rgba(158, 158, 158, 0.377);
 }
